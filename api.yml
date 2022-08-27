@@ -1,0 +1,17 @@
+openapi: '3.0.2'
+info:
+  title: Node App
+  version: '1.0'
+servers:
+  - url: "/api"
+paths:
+  /test:
+    get:
+      tags:
+        - "Test"
+      summary: Testing route
+      description: Test a route
+      operationId: test
+      responses:
+        '200':
+          description: OK
